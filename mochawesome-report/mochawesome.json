@@ -1,0 +1,174 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-06-05T20:21:48.984Z",
+    "end": "2025-06-05T20:22:35.160Z",
+    "duration": 46176,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "eb87da26-4e13-4367-a8c1-563a96e4311f",
+      "title": "",
+      "fullFile": "C:\\Users\\isado\\Documents\\automacao-codeceptjs-webdriver\\steps\\first_purchase_test.js",
+      "file": "\\steps\\first_purchase_test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0ac69094-521e-453c-b7f8-6a02139c288e",
+          "title": "first purchase",
+          "fullFile": "C:\\Users\\isado\\Documents\\automacao-codeceptjs-webdriver\\steps\\first_purchase_test.js",
+          "file": "\\steps\\first_purchase_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"first purchase\"",
+              "fullTitle": "first purchase \"before all\" hook: codeceptjs.beforeSuite in \"first purchase\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "suiteSetup(suite)",
+              "err": {},
+              "uuid": "e9069074-5cfb-4450-93fb-3ca395250ffe",
+              "parentUUID": "0ac69094-521e-453c-b7f8-6a02139c288e",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"first purchase\"",
+              "fullTitle": "first purchase \"before each\" hook: codeceptjs.before in \"first purchase\"",
+              "timedOut": false,
+              "duration": 1293,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "setup(suite)",
+              "err": {},
+              "uuid": "f5ae871a-75d3-42fd-9eb0-0b1a2aa9a972",
+              "parentUUID": "0ac69094-521e-453c-b7f8-6a02139c288e",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"first purchase\"",
+              "fullTitle": "first purchase \"after all\" hook: codeceptjs.afterSuite in \"first purchase\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "suiteTeardown(suite)",
+              "err": {},
+              "uuid": "4ea84224-8f4f-4970-854d-ea564f7d7319",
+              "parentUUID": "0ac69094-521e-453c-b7f8-6a02139c288e",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"first purchase\"",
+              "fullTitle": "first purchase \"after each\" hook: finalize codeceptjs in \"first purchase\"",
+              "timedOut": false,
+              "duration": 64,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "teardown(suite)",
+              "err": {},
+              "uuid": "69e55aae-843d-4719-a1ba-02ceb86c4036",
+              "parentUUID": "0ac69094-521e-453c-b7f8-6a02139c288e",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "First Purchase",
+              "fullTitle": "first purchase: First Purchase",
+              "timedOut": false,
+              "duration": 44808,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I, login}) => {\n    await login('admin')\n    I.amOnPage('/')\n    //login\n    //purchase_login_page.loginWithSuccess()\n    //my account\n    my_account_purchase_page.myAccountFirstPurchase()\n    //purchase\n    first_purchase_page.firstPurchase()\n    //checkout\n    checkout_page.checkoutFirstPurchase()",
+              "err": {},
+              "uuid": "bbb3b6a5-feaa-455c-b307-25b89da9c06e",
+              "parentUUID": "0ac69094-521e-453c-b7f8-6a02139c288e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bbb3b6a5-feaa-455c-b307-25b89da9c06e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 44808,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "11.1.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {},
+      "version": "6.2.0"
+    }
+  }
+}
